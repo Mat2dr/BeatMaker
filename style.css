@@ -97,6 +97,24 @@ select {
   border-radius: 15px;
   margin-top: 15px;
 }
+.tempo {
+  margin: 15px;
+  width: 30%;
+}
+.tempo-slider {
+  padding: 1px;
+  -webkit-appearance: none;
+  margin: 10px 0px;
+  width: 100%;
+  position: relative;
+  background-color: thistle;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.tempo p {
+  font-size: 13px;
+  text-align: center;
+}
 
 @keyframes playTrack {
   from {
