@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.sequencer {
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+  column-gap: 5px;
+}
+
+i,
+svg {
+  pointer-events: none;
+}
+
+.pad {
+  transition: all 0.5s ease;
+}
+
+.kick-pad,
+.snare-pad,
+.hihat-pad {
+  width: 70px;
+  height: 70px;
+  margin: 10px 10px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.kick-pad {
+  background-color: aqua;
+}
+.snare-pad {
+  background-color: blueviolet;
+}
+.hihat-pad {
+  background-color: burlywood;
+}
+.kick-pad.active {
+  background-color: rgb(0, 187, 187);
+}
+.snare-pad.active {
+  background-color: rgb(110, 32, 184);
+}
+.hihat-pad.active {
+  background-color: rgb(187, 140, 78);
+}
+
+.kick-track,
+.snare-track,
+.hihat-track {
+  display: flex;
+}
+.kick,
+.snare,
+.hihat {
+  display: flex;
+}
+
+.mute {
+  padding: 10px;
+  border: none;
+  background-color: rgb(185, 185, 185);
+  margin: 0px 10px;
+}
+select {
+  padding: 10px;
+  font-size: 13px;
+}
+
+.play {
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: coral;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-top: 15px;
+}
