@@ -78,6 +78,10 @@ svg {
   background-color: rgb(185, 185, 185);
   margin: 0px 10px;
 }
+.mute.active {
+  background-color: rgb(126, 124, 124);
+  color: white;
+}
 select {
   padding: 10px;
   font-size: 13px;
