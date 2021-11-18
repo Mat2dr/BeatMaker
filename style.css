@@ -91,6 +91,11 @@ select {
   padding: 10px;
   font-size: 13px;
 }
+.changer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .play {
   padding: 10px 20px;
@@ -128,5 +133,25 @@ select {
   }
   to {
     transform: scale(1.2);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .kick-pad,
+  .snare-pad,
+  .hihat-pad {
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .sequencer {
+    padding: 50px 50px;
+    background-color: #23263e;
+    border-radius: 0px;
   }
 }
