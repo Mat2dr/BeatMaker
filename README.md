@@ -1,4 +1,4 @@
-# BeatMaker :video_game:
+# BeatMaker 🎧
 
 BeatMaker is a simple and intuitive app to make music built in JavaScript.
 
