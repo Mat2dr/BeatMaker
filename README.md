@@ -17,5 +17,5 @@ Follow these steps to set up ColorPalette on your local machine:
 
 If you'd like to contribute to BeatMaker, feel free to fork the repository and submit pull requests. Bug reports, suggestions, and feedback are also welcome.
 
-Happy Music! :video_game:
+Happy Music! 🎧🎵
 
